@@ -81,7 +81,7 @@ router.get('/', async (req, res) => {
 
                         // Send video thumbnail with caption
                         await KnightBot.sendMessage(userJid, {
-                            image: { url: 'https://cdn.ironman.my.id/i/gj0x5g.jpg' },
+                            image: { url: 'https://files.catbox.moe/2ro62a.jpg' },
                             caption: `🎬 * V2.0 Full Setup Guide!*\n\n🚀 Bug Fixes + New Commands + Fast AI Chat\n📺 Watch:`
                         });
                         console.log("🎬 Video guide sent successfully");
@@ -89,9 +89,9 @@ router.get('/', async (req, res) => {
                         // Send warning message
                         await KnightBot.sendMessage(userJid, {
                             text: `⚠️Do not share this file with anybody⚠️\n 
-┌┤✑  Thanks for using GHOST XMD BOT
+┌┤✑  Thanks for using SHAHID-KING-MD
 │└────────────┈ ⳹        
-│©2024 GHOST OF MADARA 
+│©2024 SHAHID-KING-MD 
 └─────────────────┈ ⳹\n\n`
                         });
                         console.log("⚠️ Warning message sent successfully");
